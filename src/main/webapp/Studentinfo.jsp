@@ -28,6 +28,12 @@
           location='shujujiaohu/Shanchuchuli.jsp?stuid='+stuid;
         }
     }
+    function update(stuid){
+      location='update.jsp?stuid='+stuid;
+    }
+/*       function update(stuid){
+     location='demaxi.jsp?stuid='+stuid;
+     }*/
   </script>
 </head>
 
@@ -54,8 +60,13 @@
 <div id="sidebar">
   <a href="#" class="visible-phone"><i class="icon icon-th-list"></i>考试信息管理</a>
   <ul>
-    <li class="active"><a href="tables.html"><i class="icon icon-th"></i> <span>学员信息管理</span></a></li>
-    <li><a href="tables.html"><i class="icon icon-th"></i> <span>教员信息管理</span></a></li>
+    <li class="submenu active open">
+      <a href="#"><i class="icon icon-th"></i><span>学员信息管理</span></a>
+        <ul>
+          <li class="active"><a href="form-common.html">新增学员</a></li>
+        </ul>
+    </li>
+    <li><a href=""><i class="icon icon-th"></i> <span>教员信息管理</span></a></li>
     <li><a href="#"><i class="icon icon-th-list"></i> <span>课程管理</span></a></li>
     <li><a href="#"><i class="icon icon-th-list"></i> <span>分数管理</span></a></li>
   </ul>
@@ -77,9 +88,6 @@
         <div class="widget-box">
           <div class="widget-title">
             <h5>学员信息列表</h5>
-          </div>
-          <div class="widget-title">
-            <h5><a href="#">增加学员信息</a> </h5>
           </div>
           <div class="widget-content nopadding">
             <table class="table table-bordered data-table">
@@ -103,7 +111,7 @@
                 <td style="text-align: center; font-family:微软雅黑"><%=s.getStuName()%></td>
                 <td style="text-align: center; font-family:微软雅黑"><%=s.getStuAge()%></td>
                 <td class="center" style="text-align: center;font-family:微软雅黑;"><%=s.getStuSex()%></td>
-                <td style="text-align: center; font-family:微软雅黑"><a href="">编辑</a> </td>
+                <td style="text-align: center; font-family:微软雅黑"><a href="javascript:update(<%=s.getStuId()%>)">编辑</a> </td>
                 <td style="text-align: center; font-family:微软雅黑"><a href="javascript:deletestudent(<%=s.getStuId()%>)">删除</a> </td>
               </tr>
               <%
