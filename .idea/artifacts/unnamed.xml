@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="unnamed">
+    <output-path>D:/作业</output-path>
+    <root id="archive" name="unnamed.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/shiping/FuWuQi.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/shiping/KeHuDuan.java" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/shiping/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="untitled:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/untitled_jar2</output-path>
+    <root id="archive" name="untitled.jar">
+      <element id="module-output" name="untitled" />
+      <element id="extracted-dir" path="D:/网络流工具/常见jar包/httpcore-4.4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/网络流工具/常见jar包/slf4j-api-1.7.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/网络流工具/常见jar包/jackson-core-2.6.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/网络流工具/常见jar包/httpclient-4.5.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/网络流工具/常见jar包/jcl-over-slf4j-1.7.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/网络流工具/常见jar包/netutil1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/dom4j-1.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/网络流工具/常见jar包/fastjson-1.2.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/网络流工具/常见jar包/jackson-databind-2.6.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/网络流工具/常见jar包/jackson-annotations-2.6.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

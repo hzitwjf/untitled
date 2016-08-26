@@ -1,0 +1,6 @@
+<!ELEMENT scores (stu+) >
+<!ELEMENT stu (name,course,score) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT course (#PCDATA) >
+<!ELEMENT score (#PCDATA) >
+<!ATTLIST stu id ID #REQUIRED>

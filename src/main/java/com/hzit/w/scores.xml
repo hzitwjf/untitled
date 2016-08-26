@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scores><!--根标签-->
+    <stu id="s1">
+        <name>王同</name>
+        <course>java</course>
+        <score>89</score>
+    </stu>
+    <stu id="s2">
+        <name>李佳</name>
+        <course>sql</course>
+        <score>58</score>
+    </stu>
+    <stu id="s3">
+        <name>盖伦</name>
+        <course>java</course>
+        <score>67</score>
+    </stu>
+    <stu id="s4">
+        <name>赵信</name>
+        <course>java</course>
+        <score>70</score>
+    </stu>
+    <stu id="s5">
+        <name>嘉文</name>
+        <course>sql</course>
+        <score>75</score>
+    </stu>
+</scores>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE scores SYSTEM "biaozhun.dtd" >
+<scores><!--根标签-->
+    <stu id="s1"><!--每个stu有个id的属性-->
+        <name>王同</name><!--每个stu有name这个子标签-->
+        <course>Java</course><!--每个stu有course这个子标签-->
+        <score>89</score><!--每个stu有score这个子标签-->
+    </stu>
+    <stu id="s2">
+        <name>李佳</name>
+        <course>sql</course>
+        <score>58</score>
+    </stu>
+</scores>
